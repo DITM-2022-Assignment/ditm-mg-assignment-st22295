@@ -1,0 +1,10 @@
+body {
+  background-color: #8db3ec;
+  display: flex;
+  margin: 0 auto;
+}
+.div1 {
+  background-color: aliceblue;
+  width: 100vw;
+  height: 50vh;
+}
