@@ -5,40 +5,23 @@ body {
 body {
   display: block;
   margin: 8px;
-}
-div {
-  background: red;
-}
-div {
-  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 100px;
 }
 header {
   margin: 25px auto 50px;
   height: 300px;
   width: 90%;
+  display: block;
 }
-header {
+
+div {
+  background: red;
   display: block;
 }
 .topdiv {
   height: 300px;
   width: 80vw;
-  align-content: center;
-}
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  margin-bottom: 100px;
-}
-.m_banner-contents {
-  background: black;
-  height: 100px;
-  width: 50%;
-  float: left;
-  margin-left: 100px;
-  margin-top: 45px;
-}
-.m_profile-banner {
-  height: 300px;
 }
 .seconddiv {
   background-position: center center;
@@ -52,11 +35,7 @@ body {
   display: block;
   width: 80vw;
 }
-div.m_profile-stats ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
+
 ul {
   display: block;
   list-style-type: disc;
@@ -65,7 +44,14 @@ ul {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   padding-inline-start: 40px;
+  color: red;
 }
+a:link {
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  text-decoration: none;
+}
+
 #m_learn {
   background: black;
   height: 20px;
@@ -81,4 +67,20 @@ ul {
   background: gray;
   margin-left: 5%;
   margin-right: 5%;
+}
+.m_banner-contents {
+  background: black;
+  height: 100px;
+  width: 50%;
+  float: left;
+  margin-left: 100px;
+  margin-top: 45px;
+}
+.m_profile-banner {
+  height: 300px;
+}
+div.m_profile-stats ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
