@@ -1,66 +1,83 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-  margin-bottom: 100px;
-}
-body {
+  background-color: lightgrey;
   display: block;
-  margin: 8px;
+  margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   margin-bottom: 100px;
 }
+
 header {
-  margin: 25px auto 50px;
-  height: 300px;
-  width: 90%;
-  display: block;
+  background-color: white;
+  position: absolute;
+  bottom: 201px;
+  height: 476px;
+  width: 100vw;
 }
 
-div {
-  background: red;
-  display: block;
-}
+/* Divs */
+
 .topdiv {
-  height: 300px;
+  height: 362px;
   width: 80vw;
 }
 .seconddiv {
-  background-position: center center;
-  background-size: cover;
   border: 1px #000000 solid;
   border-radius: 50%;
-  height: 148px;
-  width: 148px;
+  height: 280px;
+  width: 280px;
+  right: 120px;
+  position: absolute;
+  top: 335px;
 }
 .thirddiv {
   display: block;
   width: 80vw;
+  position: absolute;
+  top: 160px;
+  left: 75px;
+}
+.fourthdiv {
+  border: 1px #000000 solid;
+  background-color: lightgrey;
+  height: 35px;
+  width: 99.8vw;
+  position: absolute;
+  top: -1px;
 }
 
+/* Navigation */
+
 ul {
-  display: block;
-  list-style-type: disc;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  list-style-type: none;
+  margin-block-start: -8em;
+  margin-block-end: 10em;
+  margin-inline-start: 32px;
   margin-inline-end: 0px;
-  padding-inline-start: 40px;
-  color: red;
+  padding-inline-start: 36px;
+  color: blue;
+  position: absolute;
+  top: 240px;
 }
 a:link {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   background-color: transparent;
   text-decoration: none;
 }
 
 #m_learn {
-  background: black;
+  border: 2px #000000 solid;
+  background: darkgrey;
   height: 20px;
   width: 150px;
   float: left;
-  margin-left: 120px;
-  color: white;
+  margin-left: 140px;
+  color: black;
   padding: 10px;
   text-align: center;
+  margin-top: 93px;
 }
 .m_contents {
   height: 100%;
@@ -69,12 +86,12 @@ a:link {
   margin-right: 5%;
 }
 .m_banner-contents {
-  background: black;
-  height: 100px;
-  width: 50%;
+  background: darkgrey;
+  height: 120px;
+  width: 60%;
   float: left;
-  margin-left: 100px;
-  margin-top: 45px;
+  margin-left: 135px;
+  margin-top: 110px;
 }
 .m_profile-banner {
   height: 300px;
@@ -83,4 +100,8 @@ div.m_profile-stats ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+a {
+  color: black;
 }
