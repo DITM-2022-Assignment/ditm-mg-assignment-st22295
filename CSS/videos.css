@@ -1,0 +1,14 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lightgrey;
+  display: block;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 100px;
+}
+.topdiv {
+  top: 70px;
+  height: 362px;
+  width: 80vw;
+  position: absolute;
+}
