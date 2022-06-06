@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(255, 255, 255);
+  display: block;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 100px;
+}
+h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/* Divs */
+.topdiv {
+  border: 1px #000000 solid;
+  height: 280px;
+  width: 280px;
+  right: 40px;
+  position: absolute;
+  top: 327px;
+}
+.seconddiv {
+  border: 1px #000000 solid;
+  height: 280px;
+  width: 280px;
+  position: absolute;
+  left: 430px;
+  top: 327px;
+}
+.thirddiv {
+  border: 1px #000000 solid;
+  height: 280px;
+  width: 280px;
+  position: absolute;
+  left: 550;
+  top: 327px;
+}
