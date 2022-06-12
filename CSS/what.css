@@ -4,34 +4,77 @@ body {
   display: block;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  margin-bottom: 100px;
+  margin-bottom: 0px;
 }
 h1 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  position: absolute;
+  top: 110px;
+  left: 175px;
 }
 
 /* Divs */
-.topdiv {
+
+/* Navigation */
+.navigation_what {
+  background-color: rgb(255, 255, 255);
+  width: 30vw;
+  height: 5vh;
   border: 1px #000000 solid;
-  height: 280px;
-  width: 280px;
-  right: 40px;
   position: absolute;
-  top: 327px;
+  right: 0;
 }
-.seconddiv {
-  border: 1px #000000 solid;
-  height: 280px;
-  width: 280px;
+
+ul {
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  list-style-type: none;
+  margin-block-start: -8em;
+  margin-block-end: 10em;
+  margin-inline-start: 32px;
+  margin-inline-end: 0px;
+  padding-inline-start: 36px;
+  color: blue;
   position: absolute;
-  left: 430px;
-  top: 327px;
+  top: 240px;
+  right: 100px;
 }
-.thirddiv {
+
+.content_what {
+  background-color: lightgray;
+  width: 100vw;
+  height: 49vh;
+}
+
+.container_what {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left_what {
+  background-color: rgb(255, 255, 255);
+  width: 34vw;
+  height: 50vh;
   border: 1px #000000 solid;
-  height: 280px;
-  width: 280px;
-  position: absolute;
-  left: 550;
-  top: 327px;
+}
+.middle_what {
+  background-color: rgb(255, 255, 255);
+  width: 34vw;
+  height: 50vh;
+  border: 1px #000000 solid;
+}
+.right_what {
+  background-color: rgb(255, 255, 255);
+  width: 34vw;
+  height: 50vh;
+  border: 1px #000000 solid;
+}
+.m_banner-contents {
+  background: darkgrey;
+  height: 120px;
+  width: 35%;
+  float: left;
+  margin-left: 135px;
+  margin-top: 90px;
 }
